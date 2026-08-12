@@ -36,4 +36,8 @@ public class TransacaoService {
 
         listaTransacoes.add(transacao);
     }
+
+    public void limparTransacoes() {
+        listaTransacoes.clear();
+    }
 }
